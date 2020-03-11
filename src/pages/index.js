@@ -8,6 +8,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1> TART </h1>
+    <p>
+      {`
+        A platform for developers and artist to develop a project based on mutual 
+        interest and collaboration furthering the discourse of technology.  
+        To look at the entanglement of culture and technology.
+      `}
+    </p>
   </Layout>
 )
 
