@@ -1,0 +1,20 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.circleCanvas {
+  animation: rotation 10s infinite linear;
+}
+
+.contentContainer {
+  margin-top: 60px;
+}
+
+.content {
+  padding-top: 20px;
+}
