@@ -6,7 +6,7 @@ import IndexStyles from "./index.module.css"
 
 const IndexPage = () => (
   <Layout className={IndexStyles}>
-    <SEO title="Home" />
+    <SEO title="TART" />
     <h1> T / ART </h1>
     <div className={IndexStyles.contentContainer}>
       <svg 
