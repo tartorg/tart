@@ -29,9 +29,9 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `5rem`,
         }}
       >
+        <Header siteTitle="T/ART"/>
         <main>{children}</main>
       </div>
     </>

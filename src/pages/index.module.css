@@ -17,4 +17,39 @@
 
 .content {
   padding-top: 20px;
+  line-break: break-all;
+}
+
+h1, h2, h3, h4, p {
+  color: rgb(0,0,0)
+}
+
+h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, p::-moz-selection {
+  color: rgb(0, 0, 0);
+  background: yellow;
+}
+
+h1::selection, h2::selection, h3::selection, p::selection {
+    color: rgb(0, 0, 0);
+    background: yellow;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  line-height: 5rem;
+  letter-spacing: 0.15rem;
+}
+
+h1, h2 {
+  font-family: 'Monda';
+}
+
+h3 {
+  font-family: 'Monda';
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Montserrat';
 }

@@ -29,6 +29,7 @@ function SEO({ description, lang, meta, title }) {
 
   return (
     <Helmet
+      link={``}
       htmlAttributes={{
         lang,
       }}
@@ -68,7 +69,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet"/>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+      </style>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+    </Helmet>
   )
 }
 

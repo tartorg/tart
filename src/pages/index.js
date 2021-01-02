@@ -6,37 +6,28 @@ import IndexStyles from "./index.module.css"
 
 const IndexPage = () => (
   <Layout className={IndexStyles}>
-    <SEO title="TART" />
-    <h1> T / ART </h1>
+    <SEO title="T/ART" />
+    <h1> We create new possibilities for art and technologies </h1>
     <div className={IndexStyles.contentContainer}>
-      <svg 
-        viewBox="0 0 100 100" 
-        width="100" 
-        height="100"
-        className={IndexStyles.circleCanvas}>
-        <defs>
-          <path 
-            id="circle"
-            d="M 50, 50
-              m -37, 0
-              a 37,37 0 1,1 74,0
-              a 37,37 0 1,1 -74,0"
-          />
-        </defs>
-        <text font-size="17">
-          <textPath xlink= {true} href="#circle">
-            what &nbsp;&nbsp; is &nbsp;&nbsp; t/art
-          </textPath>
-        </text>
-      </svg>
+      <h3>What is T/ART ?</h3>
     </div>
     
     <p className={IndexStyles.content}>
-      {`
-        A platform for developers and artist to develop a project based on mutual 
-        interest and collaboration furthering the discourse of technology.  
-        To look at the entanglement of culture and technology.
-      `}
+        T/ART wants to initiate a community for art and tech integration
+        and foster them to grow larger. Knowledge from different fields 
+        will be exchanged, experimented, and executed into a project. 
+        Our discovery will be presented to the public. 
+        <br/>
+        <br/>
+        We are collective, flat-organization and enthusiasts group of art 
+        and tech people who values in diversity of ideas, opensource 
+        and public oriented benefits. 
+        <br/>
+        <br/>
+        Our goal is to enlarge our network 
+        internationally for new collaborative possibilities and creativity. 
+        To achieve it, we are planing to launch both offline and online exhibition, 
+        workshop, and other activities.
     </p>
   </Layout>
 )
