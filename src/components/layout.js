@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
           maxWidth: 960,
         }}
       >
+        <title>{data.title}</title>
         <Header siteTitle="T/ART"/>
         <main>{children}</main>
       </div>

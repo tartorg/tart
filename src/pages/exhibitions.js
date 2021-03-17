@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout className={IndexStyles}>
     <SEO title="TART" />
     <div className={IndexStyles.contentContainer}>
-      <h3>Exhibitions</h3>
+      <h3><b>Exhibitions</b></h3>
     </div>
   </Layout>
 )

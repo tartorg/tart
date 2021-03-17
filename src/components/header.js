@@ -26,6 +26,15 @@ const Header = ({ siteTitle }) => (
       </p>
       <p style={{ margin: 10 }}>
         <Link
+          to="/about"
+          style={{
+            textDecoration: `none`,
+            color: 'rgb(0, 0, 0)'
+          }}
+        > about </Link>
+      </p>
+      <p style={{ margin: 10 }}>
+        <Link
           to="/exhibitions"
           style={{
             textDecoration: `none`,
